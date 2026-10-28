@@ -1,0 +1,5 @@
+results/gain_cache.json
+results/pool.json
+__pycache__/
+*.pyc
+.ghtoken

@@ -1,0 +1,2392 @@
+{
+ "n_repos": 64,
+ "overall": {
+  "readme": {
+   "count": 64,
+   "pct": 100.0
+  },
+  "license_file": {
+   "count": 64,
+   "pct": 100.0
+  },
+  "docs_dir": {
+   "count": 36,
+   "pct": 56.2
+  },
+  "contributing": {
+   "count": 30,
+   "pct": 46.9
+  },
+  "tests_dir": {
+   "count": 22,
+   "pct": 34.4
+  },
+  "changelog": {
+   "count": 16,
+   "pct": 25.0
+  },
+  "has_cli_hint": {
+   "count": 12,
+   "pct": 18.8
+  },
+  "src_layout": {
+   "count": 10,
+   "pct": 15.6
+  },
+  "env_example": {
+   "count": 9,
+   "pct": 14.1
+  },
+  "examples_dir": {
+   "count": 7,
+   "pct": 10.9
+  },
+  "dockerfile": {
+   "count": 7,
+   "pct": 10.9
+  },
+  "precommit": {
+   "count": 7,
+   "pct": 10.9
+  },
+  "has_app_dir": {
+   "count": 4,
+   "pct": 6.2
+  },
+  "compose": {
+   "count": 3,
+   "pct": 4.7
+  },
+  "makefile": {
+   "count": 2,
+   "pct": 3.1
+  },
+  "justfile": {
+   "count": 1,
+   "pct": 1.6
+  }
+ },
+ "top_dirs": [
+  {
+   "dir": ".git",
+   "count": 64,
+   "pct": 100.0
+  },
+  {
+   "dir": ".github",
+   "count": 56,
+   "pct": 87.5
+  },
+  {
+   "dir": "scripts",
+   "count": 40,
+   "pct": 62.5
+  },
+  {
+   "dir": "docs",
+   "count": 36,
+   "pct": 56.2
+  },
+  {
+   "dir": ".claude-plugin",
+   "count": 19,
+   "pct": 29.7
+  },
+  {
+   "dir": "tests",
+   "count": 18,
+   "pct": 28.1
+  },
+  {
+   "dir": "skills",
+   "count": 16,
+   "pct": 25.0
+  },
+  {
+   "dir": "assets",
+   "count": 15,
+   "pct": 23.4
+  },
+  {
+   "dir": ".agents",
+   "count": 14,
+   "pct": 21.9
+  },
+  {
+   "dir": ".claude",
+   "count": 11,
+   "pct": 17.2
+  },
+  {
+   "dir": "hooks",
+   "count": 8,
+   "pct": 12.5
+  },
+  {
+   "dir": ".codex-plugin",
+   "count": 7,
+   "pct": 10.9
+  },
+  {
+   "dir": "examples",
+   "count": 7,
+   "pct": 10.9
+  },
+  {
+   "dir": "src",
+   "count": 7,
+   "pct": 10.9
+  },
+  {
+   "dir": ".opencode",
+   "count": 6,
+   "pct": 9.4
+  },
+  {
+   "dir": "plugins",
+   "count": 6,
+   "pct": 9.4
+  },
+  {
+   "dir": "evals",
+   "count": 6,
+   "pct": 9.4
+  },
+  {
+   "dir": "data",
+   "count": 5,
+   "pct": 7.8
+  },
+  {
+   "dir": "tools",
+   "count": 5,
+   "pct": 7.8
+  },
+  {
+   "dir": "packaging",
+   "count": 5,
+   "pct": 7.8
+  }
+ ],
+ "top_dirs_by_lang": {
+  "python": [
+   {
+    "dir": ".git",
+    "count": 14
+   },
+   {
+    "dir": ".github",
+    "count": 13
+   },
+   {
+    "dir": "scripts",
+    "count": 9
+   },
+   {
+    "dir": "tests",
+    "count": 8
+   },
+   {
+    "dir": "assets",
+    "count": 7
+   },
+   {
+    "dir": "docs",
+    "count": 7
+   },
+   {
+    "dir": ".claude-plugin",
+    "count": 4
+   },
+   {
+    "dir": "skills",
+    "count": 4
+   },
+   {
+    "dir": "data",
+    "count": 3
+   },
+   {
+    "dir": "extensions",
+    "count": 2
+   },
+   {
+    "dir": "tools",
+    "count": 2
+   },
+   {
+    "dir": "examples",
+    "count": 2
+   }
+  ],
+  "other": [
+   {
+    "dir": ".git",
+    "count": 3
+   },
+   {
+    "dir": ".github",
+    "count": 3
+   },
+   {
+    "dir": "docs",
+    "count": 2
+   },
+   {
+    "dir": "scripts",
+    "count": 2
+   },
+   {
+    "dir": "config",
+    "count": 1
+   },
+   {
+    "dir": "functions",
+    "count": 1
+   },
+   {
+    "dir": "lint",
+    "count": 1
+   },
+   {
+    "dir": "pester",
+    "count": 1
+   },
+   {
+    "dir": "tools",
+    "count": 1
+   },
+   {
+    "dir": "xaml",
+    "count": 1
+   },
+   {
+    "dir": "Assets",
+    "count": 1
+   },
+   {
+    "dir": "Config",
+    "count": 1
+   }
+  ],
+  "ts": [
+   {
+    "dir": ".git",
+    "count": 13
+   },
+   {
+    "dir": ".github",
+    "count": 11
+   },
+   {
+    "dir": "docs",
+    "count": 10
+   },
+   {
+    "dir": "scripts",
+    "count": 10
+   },
+   {
+    "dir": ".agents",
+    "count": 5
+   },
+   {
+    "dir": ".claude-plugin",
+    "count": 5
+   },
+   {
+    "dir": "skills",
+    "count": 5
+   },
+   {
+    "dir": "tests",
+    "count": 5
+   },
+   {
+    "dir": ".claude",
+    "count": 5
+   },
+   {
+    "dir": "examples",
+    "count": 4
+   },
+   {
+    "dir": "src",
+    "count": 4
+   },
+   {
+    "dir": "hooks",
+    "count": 3
+   }
+  ],
+  "shell": [
+   {
+    "dir": ".git",
+    "count": 6
+   },
+   {
+    "dir": ".github",
+    "count": 6
+   },
+   {
+    "dir": "docs",
+    "count": 4
+   },
+   {
+    "dir": ".claude-plugin",
+    "count": 4
+   },
+   {
+    "dir": "scripts",
+    "count": 4
+   },
+   {
+    "dir": ".agents",
+    "count": 3
+   },
+   {
+    "dir": "assets",
+    "count": 3
+   },
+   {
+    "dir": "skills",
+    "count": 3
+   },
+   {
+    "dir": ".claude",
+    "count": 2
+   },
+   {
+    "dir": "design",
+    "count": 2
+   },
+   {
+    "dir": "tests",
+    "count": 2
+   },
+   {
+    "dir": "hooks",
+    "count": 2
+   }
+  ],
+  "web": [
+   {
+    "dir": ".git",
+    "count": 8
+   },
+   {
+    "dir": ".github",
+    "count": 5
+   },
+   {
+    "dir": "scripts",
+    "count": 3
+   },
+   {
+    "dir": "docs",
+    "count": 2
+   },
+   {
+    "dir": "assets",
+    "count": 2
+   },
+   {
+    "dir": "references",
+    "count": 2
+   },
+   {
+    "dir": ".claude-plugin",
+    "count": 1
+   },
+   {
+    "dir": "eval",
+    "count": 1
+   },
+   {
+    "dir": "site",
+    "count": 1
+   },
+   {
+    "dir": "skills",
+    "count": 1
+   },
+   {
+    "dir": "\u521b\u4e1a\u8005\u65e9\u671f\u7684\u70e6\u607c\u6811\u6d1e",
+    "count": 1
+   },
+   {
+    "dir": "\u7a0b\u5e8f\u5458\u7684\u526f\u4e1a\u8d5a\u94b1\u5b9d\u5178",
+    "count": 1
+   }
+  ],
+  "jvm": [
+   {
+    "dir": ".git",
+    "count": 4
+   },
+   {
+    "dir": ".github",
+    "count": 3
+   },
+   {
+    "dir": "gradle",
+    "count": 2
+   },
+   {
+    "dir": "images",
+    "count": 2
+   },
+   {
+    "dir": ".devcontainer",
+    "count": 1
+   },
+   {
+    "dir": "src",
+    "count": 1
+   },
+   {
+    "dir": "brut.apktool",
+    "count": 1
+   },
+   {
+    "dir": "brut.j.common",
+    "count": 1
+   },
+   {
+    "dir": "brut.j.util",
+    "count": 1
+   },
+   {
+    "dir": "brut.j.xml",
+    "count": 1
+   },
+   {
+    "dir": "brut.j.yaml",
+    "count": 1
+   },
+   {
+    "dir": "brut.j.zip",
+    "count": 1
+   }
+  ],
+  "rust": [
+   {
+    "dir": ".git",
+    "count": 7
+   },
+   {
+    "dir": "docs",
+    "count": 7
+   },
+   {
+    "dir": ".github",
+    "count": 6
+   },
+   {
+    "dir": "scripts",
+    "count": 6
+   },
+   {
+    "dir": ".cargo",
+    "count": 5
+   },
+   {
+    "dir": "crates",
+    "count": 4
+   },
+   {
+    "dir": "deploy",
+    "count": 3
+   },
+   {
+    "dir": "packaging",
+    "count": 3
+   },
+   {
+    "dir": ".claude-plugin",
+    "count": 3
+   },
+   {
+    "dir": "nix",
+    "count": 2
+   },
+   {
+    "dir": "tools",
+    "count": 2
+   },
+   {
+    "dir": ".agents",
+    "count": 2
+   }
+  ],
+  "kotlin": [
+   {
+    "dir": ".agents",
+    "count": 1
+   },
+   {
+    "dir": ".claude-plugin",
+    "count": 1
+   },
+   {
+    "dir": ".codex-plugin",
+    "count": 1
+   },
+   {
+    "dir": ".git",
+    "count": 1
+   },
+   {
+    "dir": ".github",
+    "count": 1
+   },
+   {
+    "dir": "build-system",
+    "count": 1
+   },
+   {
+    "dir": "camera",
+    "count": 1
+   },
+   {
+    "dir": "cars",
+    "count": 1
+   },
+   {
+    "dir": "device-ai",
+    "count": 1
+   },
+   {
+    "dir": "devtools",
+    "count": 1
+   },
+   {
+    "dir": "identity",
+    "count": 1
+   },
+   {
+    "dir": "jetpack-compose",
+    "count": 1
+   }
+  ],
+  "dart": [
+   {
+    "dir": ".git",
+    "count": 1
+   },
+   {
+    "dir": ".github",
+    "count": 1
+   },
+   {
+    "dir": "app",
+    "count": 1
+   },
+   {
+    "dir": "cli",
+    "count": 1
+   },
+   {
+    "dir": "fastlane",
+    "count": 1
+   },
+   {
+    "dir": "packages",
+    "count": 1
+   },
+   {
+    "dir": "server",
+    "count": 1
+   },
+   {
+    "dir": "support",
+    "count": 1
+   }
+  ],
+  "swift": [
+   {
+    "dir": ".git",
+    "count": 4
+   },
+   {
+    "dir": ".github",
+    "count": 4
+   },
+   {
+    "dir": "scripts",
+    "count": 4
+   },
+   {
+    "dir": "docs",
+    "count": 3
+   },
+   {
+    "dir": ".agents",
+    "count": 2
+   },
+   {
+    "dir": "patches",
+    "count": 2
+   },
+   {
+    "dir": "PureMac",
+    "count": 1
+   },
+   {
+    "dir": "PureMac.xcodeproj",
+    "count": 1
+   },
+   {
+    "dir": "PureMacTests",
+    "count": 1
+   },
+   {
+    "dir": "assets",
+    "count": 1
+   },
+   {
+    "dir": "cli",
+    "count": 1
+   },
+   {
+    "dir": "homebrew",
+    "count": 1
+   }
+  ],
+  "go": [
+   {
+    "dir": ".git",
+    "count": 2
+   },
+   {
+    "dir": ".github",
+    "count": 2
+   },
+   {
+    "dir": "skills",
+    "count": 2
+   },
+   {
+    "dir": ".claude-plugin",
+    "count": 1
+   },
+   {
+    "dir": ".codex-plugin",
+    "count": 1
+   },
+   {
+    "dir": ".cursor-plugin",
+    "count": 1
+   },
+   {
+    "dir": "rules",
+    "count": 1
+   },
+   {
+    "dir": "cmd",
+    "count": 1
+   },
+   {
+    "dir": "internal",
+    "count": 1
+   },
+   {
+    "dir": "scripts",
+    "count": 1
+   }
+  ],
+  "csharp": [
+   {
+    "dir": ".git",
+    "count": 1
+   },
+   {
+    "dir": ".github",
+    "count": 1
+   },
+   {
+    "dir": ".vscode",
+    "count": 1
+   },
+   {
+    "dir": "Assets",
+    "count": 1
+   },
+   {
+    "dir": "Converters",
+    "count": 1
+   },
+   {
+    "dir": "Models",
+    "count": 1
+   },
+   {
+    "dir": "Properties",
+    "count": 1
+   },
+   {
+    "dir": "QuiverLauncher.Android",
+    "count": 1
+   },
+   {
+    "dir": "QuiverLauncher.Desktop",
+    "count": 1
+   },
+   {
+    "dir": "QuiverLauncher.Tests",
+    "count": 1
+   },
+   {
+    "dir": "Services",
+    "count": 1
+   },
+   {
+    "dir": "Themes",
+    "count": 1
+   }
+  ]
+ },
+ "bool_by_lang": {
+  "python": {
+   "readme": {
+    "count": 14,
+    "pct": 100.0
+   },
+   "license_file": {
+    "count": 14,
+    "pct": 100.0
+   },
+   "tests_dir": {
+    "count": 9,
+    "pct": 64.3
+   },
+   "contributing": {
+    "count": 9,
+    "pct": 64.3
+   },
+   "docs_dir": {
+    "count": 7,
+    "pct": 50.0
+   },
+   "changelog": {
+    "count": 7,
+    "pct": 50.0
+   },
+   "precommit": {
+    "count": 6,
+    "pct": 42.9
+   },
+   "has_cli_hint": {
+    "count": 5,
+    "pct": 35.7
+   },
+   "dockerfile": {
+    "count": 4,
+    "pct": 28.6
+   },
+   "env_example": {
+    "count": 4,
+    "pct": 28.6
+   },
+   "compose": {
+    "count": 2,
+    "pct": 14.3
+   },
+   "examples_dir": {
+    "count": 2,
+    "pct": 14.3
+   },
+   "makefile": {
+    "count": 2,
+    "pct": 14.3
+   },
+   "has_app_dir": {
+    "count": 1,
+    "pct": 7.1
+   },
+   "src_layout": {
+    "count": 1,
+    "pct": 7.1
+   }
+  },
+  "other": {
+   "readme": {
+    "count": 3,
+    "pct": 100.0
+   },
+   "license_file": {
+    "count": 3,
+    "pct": 100.0
+   },
+   "docs_dir": {
+    "count": 2,
+    "pct": 66.7
+   },
+   "tests_dir": {
+    "count": 2,
+    "pct": 66.7
+   }
+  },
+  "ts": {
+   "readme": {
+    "count": 13,
+    "pct": 100.0
+   },
+   "license_file": {
+    "count": 13,
+    "pct": 100.0
+   },
+   "docs_dir": {
+    "count": 10,
+    "pct": 76.9
+   },
+   "contributing": {
+    "count": 8,
+    "pct": 61.5
+   },
+   "tests_dir": {
+    "count": 7,
+    "pct": 53.8
+   },
+   "src_layout": {
+    "count": 5,
+    "pct": 38.5
+   },
+   "has_cli_hint": {
+    "count": 5,
+    "pct": 38.5
+   },
+   "examples_dir": {
+    "count": 4,
+    "pct": 30.8
+   },
+   "changelog": {
+    "count": 4,
+    "pct": 30.8
+   },
+   "env_example": {
+    "count": 3,
+    "pct": 23.1
+   },
+   "has_app_dir": {
+    "count": 1,
+    "pct": 7.7
+   },
+   "dockerfile": {
+    "count": 1,
+    "pct": 7.7
+   },
+   "compose": {
+    "count": 1,
+    "pct": 7.7
+   }
+  },
+  "shell": {
+   "readme": {
+    "count": 6,
+    "pct": 100.0
+   },
+   "license_file": {
+    "count": 6,
+    "pct": 100.0
+   },
+   "contributing": {
+    "count": 5,
+    "pct": 83.3
+   },
+   "docs_dir": {
+    "count": 4,
+    "pct": 66.7
+   },
+   "changelog": {
+    "count": 2,
+    "pct": 33.3
+   },
+   "tests_dir": {
+    "count": 2,
+    "pct": 33.3
+   },
+   "src_layout": {
+    "count": 1,
+    "pct": 16.7
+   },
+   "examples_dir": {
+    "count": 1,
+    "pct": 16.7
+   },
+   "precommit": {
+    "count": 1,
+    "pct": 16.7
+   }
+  },
+  "web": {
+   "readme": {
+    "count": 8,
+    "pct": 100.0
+   },
+   "license_file": {
+    "count": 8,
+    "pct": 100.0
+   },
+   "docs_dir": {
+    "count": 2,
+    "pct": 25.0
+   },
+   "env_example": {
+    "count": 1,
+    "pct": 12.5
+   },
+   "has_app_dir": {
+    "count": 1,
+    "pct": 12.5
+   }
+  },
+  "jvm": {
+   "readme": {
+    "count": 4,
+    "pct": 100.0
+   },
+   "license_file": {
+    "count": 4,
+    "pct": 100.0
+   },
+   "contributing": {
+    "count": 1,
+    "pct": 25.0
+   },
+   "src_layout": {
+    "count": 1,
+    "pct": 25.0
+   }
+  },
+  "rust": {
+   "readme": {
+    "count": 7,
+    "pct": 100.0
+   },
+   "license_file": {
+    "count": 7,
+    "pct": 100.0
+   },
+   "docs_dir": {
+    "count": 7,
+    "pct": 100.0
+   },
+   "contributing": {
+    "count": 3,
+    "pct": 42.9
+   },
+   "tests_dir": {
+    "count": 2,
+    "pct": 28.6
+   },
+   "changelog": {
+    "count": 2,
+    "pct": 28.6
+   },
+   "dockerfile": {
+    "count": 1,
+    "pct": 14.3
+   },
+   "has_cli_hint": {
+    "count": 1,
+    "pct": 14.3
+   }
+  },
+  "kotlin": {
+   "readme": {
+    "count": 1,
+    "pct": 100.0
+   },
+   "license_file": {
+    "count": 1,
+    "pct": 100.0
+   }
+  },
+  "dart": {
+   "readme": {
+    "count": 1,
+    "pct": 100.0
+   },
+   "license_file": {
+    "count": 1,
+    "pct": 100.0
+   },
+   "contributing": {
+    "count": 1,
+    "pct": 100.0
+   },
+   "changelog": {
+    "count": 1,
+    "pct": 100.0
+   },
+   "has_app_dir": {
+    "count": 1,
+    "pct": 100.0
+   }
+  },
+  "swift": {
+   "readme": {
+    "count": 4,
+    "pct": 100.0
+   },
+   "license_file": {
+    "count": 4,
+    "pct": 100.0
+   },
+   "docs_dir": {
+    "count": 3,
+    "pct": 75.0
+   },
+   "contributing": {
+    "count": 2,
+    "pct": 50.0
+   },
+   "justfile": {
+    "count": 1,
+    "pct": 25.0
+   },
+   "dockerfile": {
+    "count": 1,
+    "pct": 25.0
+   }
+  },
+  "go": {
+   "readme": {
+    "count": 2,
+    "pct": 100.0
+   },
+   "license_file": {
+    "count": 2,
+    "pct": 100.0
+   },
+   "contributing": {
+    "count": 1,
+    "pct": 50.0
+   },
+   "env_example": {
+    "count": 1,
+    "pct": 50.0
+   },
+   "src_layout": {
+    "count": 1,
+    "pct": 50.0
+   },
+   "has_cli_hint": {
+    "count": 1,
+    "pct": 50.0
+   }
+  },
+  "csharp": {
+   "readme": {
+    "count": 1,
+    "pct": 100.0
+   },
+   "license_file": {
+    "count": 1,
+    "pct": 100.0
+   },
+   "docs_dir": {
+    "count": 1,
+    "pct": 100.0
+   },
+   "src_layout": {
+    "count": 1,
+    "pct": 100.0
+   }
+  }
+ },
+ "gitignore_top": [
+  {
+   "line": ".DS_Store",
+   "count": 48
+  },
+  {
+   "line": "__pycache__/",
+   "count": 29
+  },
+  {
+   "line": ".env",
+   "count": 29
+  },
+  {
+   "line": "build/",
+   "count": 23
+  },
+  {
+   "line": "dist/",
+   "count": 22
+  },
+  {
+   "line": "node_modules/",
+   "count": 19
+  },
+  {
+   "line": ".idea/",
+   "count": 18
+  },
+  {
+   "line": ".vscode/",
+   "count": 14
+  },
+  {
+   "line": ".env.local",
+   "count": 13
+  },
+  {
+   "line": ".pytest_cache/",
+   "count": 11
+  },
+  {
+   "line": "venv/",
+   "count": 11
+  },
+  {
+   "line": ".claude/",
+   "count": 11
+  },
+  {
+   "line": "env/",
+   "count": 10
+  },
+  {
+   "line": "Thumbs.db",
+   "count": 9
+  },
+  {
+   "line": ".eggs/",
+   "count": 9
+  },
+  {
+   "line": ".venv/",
+   "count": 9
+  },
+  {
+   "line": ".claude/settings.local.json",
+   "count": 9
+  },
+  {
+   "line": ".Python",
+   "count": 9
+  },
+  {
+   "line": "node_modules",
+   "count": 9
+  },
+  {
+   "line": ".coverage",
+   "count": 9
+  },
+  {
+   "line": "htmlcov/",
+   "count": 9
+  },
+  {
+   "line": ".mypy_cache/",
+   "count": 8
+  },
+  {
+   "line": "ENV/",
+   "count": 8
+  },
+  {
+   "line": "target/",
+   "count": 8
+  },
+  {
+   "line": ".cache/",
+   "count": 7
+  },
+  {
+   "line": "coverage.xml",
+   "count": 7
+  },
+  {
+   "line": ".cache",
+   "count": 7
+  },
+  {
+   "line": ".ipynb_checkpoints",
+   "count": 7
+  },
+  {
+   "line": ".venv",
+   "count": 7
+  },
+  {
+   "line": ".idea",
+   "count": 7
+  }
+ ],
+ "gitignore_top_by_lang": {
+  "python": [
+   {
+    "line": ".DS_Store",
+    "count": 10
+   },
+   {
+    "line": "__pycache__/",
+    "count": 8
+   },
+   {
+    "line": ".pytest_cache/",
+    "count": 7
+   },
+   {
+    "line": "dist/",
+    "count": 7
+   },
+   {
+    "line": "build/",
+    "count": 7
+   },
+   {
+    "line": ".env",
+    "count": 7
+   },
+   {
+    "line": ".eggs/",
+    "count": 6
+   },
+   {
+    "line": "venv/",
+    "count": 6
+   },
+   {
+    "line": "env/",
+    "count": 6
+   },
+   {
+    "line": ".coverage",
+    "count": 6
+   },
+   {
+    "line": "htmlcov/",
+    "count": 6
+   },
+   {
+    "line": ".mypy_cache/",
+    "count": 5
+   },
+   {
+    "line": ".venv/",
+    "count": 5
+   },
+   {
+    "line": "coverage.xml",
+    "count": 5
+   },
+   {
+    "line": ".ipynb_checkpoints",
+    "count": 5
+   },
+   {
+    "line": ".vscode/",
+    "count": 4
+   },
+   {
+    "line": ".idea/",
+    "count": 4
+   },
+   {
+    "line": ".Python",
+    "count": 4
+   },
+   {
+    "line": "develop-eggs/",
+    "count": 4
+   },
+   {
+    "line": "downloads/",
+    "count": 4
+   }
+  ],
+  "other": [
+   {
+    "line": ".DS_Store",
+    "count": 3
+   },
+   {
+    "line": "__pycache__/",
+    "count": 2
+   },
+   {
+    "line": ".venv/",
+    "count": 2
+   },
+   {
+    "line": "System.Management.Automation.dll",
+    "count": 1
+   },
+   {
+    "line": "Microsoft.PowerShell.ConsoleHost.dll",
+    "count": 1
+   },
+   {
+    "line": "winutil.exe.config",
+    "count": 1
+   },
+   {
+    "line": "winutil.ps1",
+    "count": 1
+   },
+   {
+    "line": "binary/",
+    "count": 1
+   },
+   {
+    "line": "testResults.xml",
+    "count": 1
+   },
+   {
+    "line": "desktop.ini",
+    "count": 1
+   },
+   {
+    "line": ".vscode/",
+    "count": 1
+   },
+   {
+    "line": ".vs/",
+    "count": 1
+   },
+   {
+    "line": ".idea/",
+    "count": 1
+   },
+   {
+    "line": "LastUsedSettings.json",
+    "count": 1
+   },
+   {
+    "line": "venv/",
+    "count": 1
+   },
+   {
+    "line": ".codegraph/",
+    "count": 1
+   },
+   {
+    "line": ".omc/",
+    "count": 1
+   },
+   {
+    "line": ".reasonix/",
+    "count": 1
+   },
+   {
+    "line": "runtime/",
+    "count": 1
+   },
+   {
+    "line": "scripts/experimental/runtime/",
+    "count": 1
+   }
+  ],
+  "ts": [
+   {
+    "line": ".DS_Store",
+    "count": 11
+   },
+   {
+    "line": ".env",
+    "count": 9
+   },
+   {
+    "line": "node_modules/",
+    "count": 8
+   },
+   {
+    "line": "dist/",
+    "count": 7
+   },
+   {
+    "line": "__pycache__/",
+    "count": 5
+   },
+   {
+    "line": ".idea/",
+    "count": 5
+   },
+   {
+    "line": ".env.local",
+    "count": 5
+   },
+   {
+    "line": "node_modules",
+    "count": 5
+   },
+   {
+    "line": ".claude/settings.local.json",
+    "count": 4
+   },
+   {
+    "line": ".vscode/",
+    "count": 4
+   },
+   {
+    "line": "build/",
+    "count": 3
+   },
+   {
+    "line": "coverage/",
+    "count": 3
+   },
+   {
+    "line": "dist",
+    "count": 3
+   },
+   {
+    "line": ".turbo/",
+    "count": 2
+   },
+   {
+    "line": ".claude/",
+    "count": 2
+   },
+   {
+    "line": ".next/",
+    "count": 2
+   },
+   {
+    "line": "Thumbs.db",
+    "count": 2
+   },
+   {
+    "line": ".cache/",
+    "count": 2
+   },
+   {
+    "line": ".nyc_output/",
+    "count": 2
+   },
+   {
+    "line": "logs/",
+    "count": 2
+   }
+  ],
+  "shell": [
+   {
+    "line": ".DS_Store",
+    "count": 5
+   },
+   {
+    "line": "__pycache__/",
+    "count": 5
+   },
+   {
+    "line": "node_modules/",
+    "count": 4
+   },
+   {
+    "line": ".idea/",
+    "count": 2
+   },
+   {
+    "line": "Thumbs.db",
+    "count": 2
+   },
+   {
+    "line": "build/",
+    "count": 2
+   },
+   {
+    "line": "dist/",
+    "count": 2
+   },
+   {
+    "line": ".cache/",
+    "count": 2
+   },
+   {
+    "line": ".vs/",
+    "count": 1
+   },
+   {
+    "line": ".vscode/settings.json",
+    "count": 1
+   },
+   {
+    "line": "Desktop.ini",
+    "count": 1
+   },
+   {
+    "line": ".claude/settings.local.json",
+    "count": 1
+   },
+   {
+    "line": "CLAUDE.local.md",
+    "count": 1
+   },
+   {
+    "line": "project.local.yaml",
+    "count": 1
+   },
+   {
+    "line": "production/session-logs/",
+    "count": 1
+   },
+   {
+    "line": "production/session-state/",
+    "count": 1
+   },
+   {
+    "line": ".scratch/",
+    "count": 1
+   },
+   {
+    "line": ".claude/agent-memory/",
+    "count": 1
+   },
+   {
+    "line": ".claude/worktrees/",
+    "count": 1
+   },
+   {
+    "line": "examples/",
+    "count": 1
+   }
+  ],
+  "web": [
+   {
+    "line": ".DS_Store",
+    "count": 5
+   },
+   {
+    "line": ".env",
+    "count": 5
+   },
+   {
+    "line": "__pycache__/",
+    "count": 4
+   },
+   {
+    "line": "node_modules/",
+    "count": 3
+   },
+   {
+    "line": "dist/",
+    "count": 3
+   },
+   {
+    "line": "build/",
+    "count": 3
+   },
+   {
+    "line": ".env.local",
+    "count": 3
+   },
+   {
+    "line": ".venv",
+    "count": 3
+   },
+   {
+    "line": ".vscode/",
+    "count": 2
+   },
+   {
+    "line": ".idea/",
+    "count": 2
+   },
+   {
+    "line": ".claude/",
+    "count": 2
+   },
+   {
+    "line": ".Python",
+    "count": 2
+   },
+   {
+    "line": "develop-eggs/",
+    "count": 2
+   },
+   {
+    "line": "downloads/",
+    "count": 2
+   },
+   {
+    "line": "eggs/",
+    "count": 2
+   },
+   {
+    "line": ".eggs/",
+    "count": 2
+   },
+   {
+    "line": "lib/",
+    "count": 2
+   },
+   {
+    "line": "lib64/",
+    "count": 2
+   },
+   {
+    "line": "parts/",
+    "count": 2
+   },
+   {
+    "line": "sdist/",
+    "count": 2
+   }
+  ],
+  "jvm": [
+   {
+    "line": "bin/",
+    "count": 3
+   },
+   {
+    "line": "build/",
+    "count": 3
+   },
+   {
+    "line": ".DS_Store",
+    "count": 3
+   },
+   {
+    "line": "gen/",
+    "count": 2
+   },
+   {
+    "line": ".gradle/",
+    "count": 2
+   },
+   {
+    "line": "local.properties",
+    "count": 2
+   },
+   {
+    "line": "gradle.properties",
+    "count": 2
+   },
+   {
+    "line": ".idea",
+    "count": 2
+   },
+   {
+    "line": "/gradle/wrapper/gradle-wrapper.properties",
+    "count": 1
+   },
+   {
+    "line": "out/",
+    "count": 1
+   },
+   {
+    "line": "gradle-app.setting",
+    "count": 1
+   },
+   {
+    "line": "/target/",
+    "count": 1
+   },
+   {
+    "line": ".idea/",
+    "count": 1
+   },
+   {
+    "line": ".navigation/",
+    "count": 1
+   },
+   {
+    "line": ".vscode",
+    "count": 1
+   },
+   {
+    "line": "/infer-out/",
+    "count": 1
+   },
+   {
+    "line": "/bin/",
+    "count": 1
+   },
+   {
+    "line": "Thumbs.db",
+    "count": 1
+   },
+   {
+    "line": ".classpath",
+    "count": 1
+   },
+   {
+    "line": ".project",
+    "count": 1
+   }
+  ],
+  "rust": [
+   {
+    "line": ".DS_Store",
+    "count": 5
+   },
+   {
+    "line": ".env",
+    "count": 5
+   },
+   {
+    "line": "__pycache__/",
+    "count": 3
+   },
+   {
+    "line": "/target/",
+    "count": 3
+   },
+   {
+    "line": ".idea/",
+    "count": 3
+   },
+   {
+    "line": ".claude/settings.local.json",
+    "count": 3
+   },
+   {
+    "line": "dist/",
+    "count": 2
+   },
+   {
+    "line": ".env.local",
+    "count": 2
+   },
+   {
+    "line": ".vscode/",
+    "count": 2
+   },
+   {
+    "line": ".claude/",
+    "count": 2
+   },
+   {
+    "line": "node_modules/",
+    "count": 2
+   },
+   {
+    "line": ".wrangler/",
+    "count": 2
+   },
+   {
+    "line": "target/",
+    "count": 2
+   },
+   {
+    "line": "node_modules",
+    "count": 1
+   },
+   {
+    "line": "count.txt",
+    "count": 1
+   },
+   {
+    "line": ".nitro",
+    "count": 1
+   },
+   {
+    "line": ".tanstack",
+    "count": 1
+   },
+   {
+    "line": ".wrangler",
+    "count": 1
+   },
+   {
+    "line": ".vinxi",
+    "count": 1
+   },
+   {
+    "line": "todos.json",
+    "count": 1
+   }
+  ],
+  "dart": [
+   {
+    "line": ".idea",
+    "count": 1
+   },
+   {
+    "line": "/.dart_tool/",
+    "count": 1
+   },
+   {
+    "line": "/target/",
+    "count": 1
+   },
+   {
+    "line": "/app/AppDir",
+    "count": 1
+   },
+   {
+    "line": "/app/appimage-build",
+    "count": 1
+   },
+   {
+    "line": ".refena_inspector/",
+    "count": 1
+   },
+   {
+    "line": "/secrets",
+    "count": 1
+   },
+   {
+    "line": ".fvm/",
+    "count": 1
+   },
+   {
+    "line": ".DS_Store",
+    "count": 1
+   },
+   {
+    "line": "/support/build/msix/content/resources.pri",
+    "count": 1
+   }
+  ],
+  "swift": [
+   {
+    "line": "build/",
+    "count": 4
+   },
+   {
+    "line": ".DS_Store",
+    "count": 4
+   },
+   {
+    "line": "DerivedData/",
+    "count": 3
+   },
+   {
+    "line": "xcuserdata/",
+    "count": 3
+   },
+   {
+    "line": "Carthage/Build/",
+    "count": 3
+   },
+   {
+    "line": ".build/",
+    "count": 2
+   },
+   {
+    "line": "Pods/",
+    "count": 2
+   },
+   {
+    "line": "CLAUDE.md",
+    "count": 2
+   },
+   {
+    "line": "fastlane/report.xml",
+    "count": 2
+   },
+   {
+    "line": "fastlane/Preview.html",
+    "count": 2
+   },
+   {
+    "line": "fastlane/test_output",
+    "count": 2
+   },
+   {
+    "line": "iOSInjectionProject/",
+    "count": 2
+   },
+   {
+    "line": "build-ci/",
+    "count": 1
+   },
+   {
+    "line": "Packages/",
+    "count": 1
+   },
+   {
+    "line": "Package.resolved",
+    "count": 1
+   },
+   {
+    "line": "fastlane/",
+    "count": 1
+   },
+   {
+    "line": "fastlane/README.md",
+    "count": 1
+   },
+   {
+    "line": "asc_api.py",
+    "count": 1
+   },
+   {
+    "line": "ExportOptions.plist",
+    "count": 1
+   },
+   {
+    "line": "_work/",
+    "count": 1
+   }
+  ],
+  "go": [
+   {
+    "line": ".worktrees/",
+    "count": 1
+   },
+   {
+    "line": ".claude/worktrees/",
+    "count": 1
+   },
+   {
+    "line": "__pycache__/",
+    "count": 1
+   },
+   {
+    "line": ".cursorrules",
+    "count": 1
+   },
+   {
+    "line": ".whisper",
+    "count": 1
+   },
+   {
+    "line": ".DS_Store",
+    "count": 1
+   },
+   {
+    "line": "venv",
+    "count": 1
+   },
+   {
+    "line": ".curation-triage-state.json",
+    "count": 1
+   },
+   {
+    "line": ".env",
+    "count": 1
+   }
+  ],
+  "csharp": [
+   {
+    "line": "QuiverLauncher.Android/ci-release.jks",
+    "count": 1
+   },
+   {
+    "line": "[Dd]ebug/",
+    "count": 1
+   },
+   {
+    "line": "[Dd]ebugPublic/",
+    "count": 1
+   },
+   {
+    "line": "[Rr]elease/",
+    "count": 1
+   },
+   {
+    "line": "[Rr]eleases/",
+    "count": 1
+   },
+   {
+    "line": "_test_build/",
+    "count": 1
+   },
+   {
+    "line": ".testbuild/",
+    "count": 1
+   },
+   {
+    "line": "x64/",
+    "count": 1
+   },
+   {
+    "line": "x86/",
+    "count": 1
+   },
+   {
+    "line": "[Ww][Ii][Nn]32/",
+    "count": 1
+   },
+   {
+    "line": "[Aa][Rr][Mm]/",
+    "count": 1
+   },
+   {
+    "line": "[Aa][Rr][Mm]64/",
+    "count": 1
+   },
+   {
+    "line": "bld/",
+    "count": 1
+   },
+   {
+    "line": "[Bb]in/",
+    "count": 1
+   },
+   {
+    "line": "[Oo]bj/",
+    "count": 1
+   },
+   {
+    "line": "[Ll]og/",
+    "count": 1
+   },
+   {
+    "line": "[Ll]ogs/",
+    "count": 1
+   },
+   {
+    "line": ".vs/",
+    "count": 1
+   },
+   {
+    "line": ".flatpak-builder/",
+    "count": 1
+   },
+   {
+    "line": "FlatpakBuild/",
+    "count": 1
+   }
+  ]
+ },
+ "readme_sections_top": [
+  {
+   "section": "license",
+   "count": 10
+  },
+  {
+   "section": "how it works",
+   "count": 8
+  },
+  {
+   "section": "installation",
+   "count": 8
+  },
+  {
+   "section": "install",
+   "count": 7
+  },
+  {
+   "section": "features",
+   "count": 6
+  },
+  {
+   "section": "contributing",
+   "count": 6
+  },
+  {
+   "section": "quick start",
+   "count": 5
+  },
+  {
+   "section": "table of contents",
+   "count": 5
+  },
+  {
+   "section": "what it does",
+   "count": 5
+  },
+  {
+   "section": "sponsors",
+   "count": 4
+  },
+  {
+   "section": "getting started",
+   "count": 4
+  },
+  {
+   "section": "documentation",
+   "count": 4
+  },
+  {
+   "section": "overview",
+   "count": 4
+  },
+  {
+   "section": "see it in action",
+   "count": 3
+  },
+  {
+   "section": "why this exists",
+   "count": 3
+  },
+  {
+   "section": "prerequisites",
+   "count": 3
+  },
+  {
+   "section": "usage",
+   "count": 3
+  },
+  {
+   "section": "commands",
+   "count": 2
+  },
+  {
+   "section": "support",
+   "count": 2
+  },
+  {
+   "section": "what's included",
+   "count": 2
+  },
+  {
+   "section": "configuration",
+   "count": 2
+  },
+  {
+   "section": "what you get",
+   "count": 2
+  },
+  {
+   "section": "quickstart",
+   "count": 2
+  },
+  {
+   "section": "contribution guidelines",
+   "count": 2
+  },
+  {
+   "section": "star history",
+   "count": 2
+  }
+ ],
+ "ci_actions_top": [
+  {
+   "action": "actions/checkout@v4",
+   "count": 173
+  },
+  {
+   "action": "actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "count": 127
+  },
+  {
+   "action": "actions/setup-node@v4",
+   "count": 83
+  },
+  {
+   "action": "actions/upload-artifact@v4",
+   "count": 58
+  },
+  {
+   "action": "actions/checkout@v6",
+   "count": 52
+  },
+  {
+   "action": "actions/checkout@v7",
+   "count": 50
+  },
+  {
+   "action": "actions/upload-artifact@v6",
+   "count": 43
+  },
+  {
+   "action": "actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97",
+   "count": 29
+  },
+  {
+   "action": "actions/setup-node@820762786026740c76f36085b0efc47a31fe5020",
+   "count": 29
+  },
+  {
+   "action": "actions/checkout@v5",
+   "count": 28
+  },
+  {
+   "action": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+   "count": 25
+  },
+  {
+   "action": "actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+   "count": 23
+  },
+  {
+   "action": "dtolnay/rust-toolchain@stable",
+   "count": 21
+  },
+  {
+   "action": "actions/download-artifact@v4",
+   "count": 20
+  },
+  {
+   "action": "astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7",
+   "count": 20
+  },
+  {
+   "action": "actions/cache@v5",
+   "count": 18
+  },
+  {
+   "action": "dtolnay/rust-toolchain@4cda84d5c5c54efe2404f9d843567869ab1699d4",
+   "count": 18
+  },
+  {
+   "action": "actions/cache@v4",
+   "count": 15
+  },
+  {
+   "action": "Swatinem/rust-cache@v2",
+   "count": 15
+  },
+  {
+   "action": "actions/upload-release-asset@v1",
+   "count": 15
+  },
+  {
+   "action": "oven-sh/setup-bun@v2",
+   "count": 14
+  },
+  {
+   "action": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+   "count": 13
+  },
+  {
+   "action": "Swatinem/rust-cache@f0d9c3887740aee45f6153b24b3a6b815192ec16",
+   "count": 13
+  },
+  {
+   "action": "actions/download-artifact@v7",
+   "count": 13
+  },
+  {
+   "action": "actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1",
+   "count": 13
+  },
+  {
+   "action": "actions/setup-python@v5",
+   "count": 12
+  },
+  {
+   "action": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+   "count": 12
+  },
+  {
+   "action": "./.github/actions/npm-ci-retry",
+   "count": 11
+  },
+  {
+   "action": "actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955",
+   "count": 10
+  },
+  {
+   "action": "oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6",
+   "count": 10
+  },
+  {
+   "action": "actions/upload-artifact@v7",
+   "count": 9
+  },
+  {
+   "action": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+   "count": 8
+  },
+  {
+   "action": "Swatinem/rust-cache@6323deb102c322ba6fcbdcafc7e3dddab59af2b6",
+   "count": 8
+  },
+  {
+   "action": "actions/cache/restore@v4",
+   "count": 8
+  },
+  {
+   "action": "subosito/flutter-action@v2",
+   "count": 8
+  },
+  {
+   "action": "actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9",
+   "count": 8
+  },
+  {
+   "action": "pnpm/action-setup@v6",
+   "count": 8
+  },
+  {
+   "action": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+   "count": 7
+  },
+  {
+   "action": "actions-rs/toolchain@v1",
+   "count": 7
+  },
+  {
+   "action": "astral-sh/setup-uv@v4",
+   "count": 7
+  },
+  {
+   "action": "pnpm/action-setup@v4",
+   "count": 7
+  },
+  {
+   "action": "pnpm/action-setup@0ebf47130e4866e96fce0953f49152a61190b271",
+   "count": 7
+  },
+  {
+   "action": "./.github/actions/setup-nix",
+   "count": 7
+  },
+  {
+   "action": "actions/checkout@v3",
+   "count": 7
+  },
+  {
+   "action": "actions/setup-python@v7",
+   "count": 6
+  },
+  {
+   "action": "anthropics/claude-code-action@bbfaf8e1ffe3e688f7ab65ceee78de241e24a238",
+   "count": 6
+  },
+  {
+   "action": "Swatinem/rust-cache@d1527c8f67ef9af357290475d4af4b0fab8f12e0",
+   "count": 6
+  },
+  {
+   "action": "actions/setup-dotnet@v4",
+   "count": 6
+  },
+  {
+   "action": "dtolnay/rust-toolchain@032958afbdc797a9164d3bc0b56325c1308924a5",
+   "count": 6
+  },
+  {
+   "action": "astral-sh/setup-uv@v8.1.0",
+   "count": 5
+  },
+  {
+   "action": "actions/github-script@v7",
+   "count": 5
+  },
+  {
+   "action": "pypa/gh-action-pypi-publish@release/v1",
+   "count": 5
+  },
+  {
+   "action": "softprops/action-gh-release@v2",
+   "count": 5
+  },
+  {
+   "action": "write",
+   "count": 5
+  },
+  {
+   "action": "docker/setup-buildx-action@f87e5991a6d7451dcb8d9637bfbc97413f497069",
+   "count": 5
+  },
+  {
+   "action": "docker/login-action@dbcb813823bdd20940b903addbd779551569679f",
+   "count": 5
+  },
+  {
+   "action": "actions/setup-python@v6",
+   "count": 5
+  },
+  {
+   "action": "tiangolo/pr-submit@d802fdf59bde80bc3eb8bd3259f4cbeec63de4aa",
+   "count": 5
+  },
+  {
+   "action": "azure/login@v3",
+   "count": 5
+  },
+  {
+   "action": "azure/trusted-signing-action@v2",
+   "count": 5
+  }
+ ],
+ "build_backends": {
+  "hatchling": 3,
+  "setuptools>=61": 2,
+  "setuptools>=83": 1,
+  "setuptools": 1,
+  "pdm-backend": 1
+ }
+}

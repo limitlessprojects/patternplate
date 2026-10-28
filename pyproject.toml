@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "patternplate"
+version = "1.0.0"
+description = "Offline boilerplate generator built from measured architectural patterns across the top 100 weekly trending GitHub repos"
+requires-python = ">=3.9"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "limitlessprojects" }]
+dependencies = []
+
+[project.scripts]
+patternplate = "patternplate.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+patternplate = []
